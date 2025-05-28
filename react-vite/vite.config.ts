@@ -2,6 +2,8 @@ import { defineConfig } from 'vite'
 // import react from '@vitejs/plugin-react'
 import qiankun from 'vite-plugin-qiankun';
 import babel from '@rollup/plugin-babel';
+
+// 开发环境下支持作为子应用调试
 const useDevMode = true
 
 // https://vite.dev/config/
